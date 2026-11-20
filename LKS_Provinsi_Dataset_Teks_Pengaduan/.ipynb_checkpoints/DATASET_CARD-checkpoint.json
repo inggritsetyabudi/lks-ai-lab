@@ -1,0 +1,32 @@
+{
+  "n_total": 4000,
+  "split_sizes": {
+    "train": 2800,
+    "valid": 601,
+    "test": 599
+  },
+  "label_counts": {
+    "AKUN_AKSES": 640,
+    "SISTEM_JARINGAN": 570,
+    "DOKUMEN_ADMIN": 520,
+    "AKADEMIK_PEMBELAJARAN": 480,
+    "BEASISWA_BANTUAN": 450,
+    "KEUANGAN_PEMBAYARAN": 410,
+    "SARANA_PRASARANA": 380,
+    "KEAMANAN_KETERTIBAN": 320,
+    "PENDAFTARAN_MUTASI": 230
+  },
+  "missing_train": 42,
+  "exact_duplicate_train": 106,
+  "source": "original fictional synthetic dataset",
+  "random_seed": 20261120,
+  "scenario_families_partly_held_out": true,
+  "variant": "NLP adaptation of provincial LKS AI task; NOT official dataset",
+  "notes": [
+    "Train has missing/blank texts, exact duplicates and common writing noise",
+    "Validation and test texts have no exact text overlap with train",
+    "Partial scenario family holdout between train and evaluation",
+    "All texts fictional and synthetic, not public complaints",
+    "Answer key distributed separately"
+  ]
+}
